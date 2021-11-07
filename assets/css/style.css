@@ -12,7 +12,7 @@ body  {
     background-color: #d9dcd6; 
 }
 /* Class header select all elements with that class */
-.header {
+header {
      /* Sets padding on all sides to 20px */
     padding: 20px;
     /* Font-family property specifies a list of fonts to be used in order of priority */
@@ -21,15 +21,17 @@ body  {
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
      /* Sets display of all elements with class selector to block */
     display: inline-block;
-     /* Font-size property sets the size of a font */
     font-size: 48px;    
 }
 
-/* Class header select all elements with div that class */
-.header div {
+header h1  .seo{
+    color: #d9dcd6;
+}
+
+header nav {
      /* Shortcut method sets top padding to 15px */
     padding-top: 15px;
     /* Sets top and bottom margin-right to 20px */
@@ -40,9 +42,12 @@ body  {
 }
 
 
-.header div ul li {
+header nav ul {
     list-style-type: none;
-    /* Sets display of all elements with class selector to block */
+
+}
+
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -77,16 +82,15 @@ p {
     float: right;
     margin-left: 25px;
 }
-/* Class content select all elements with that class */
-section {
+/* MAIN */
+main {
     /*Sets the width of the section */
     width: 75%;
-    /* Sets display of all elements with class selector to inline */
     display: inline-block;
     margin-left: 20px;
 }
-/* Class benefits select all elements with that class */
-.benefits {
+/* ARTICLE */
+article {
     margin-right: 20px;
      /* Sets padding on all sides to 20px */
     padding: 20px;
@@ -124,7 +128,7 @@ section {
     margin-bottom: 20px;
      /* Sets padding on all sides to 50px */
     padding: 50px;
-    /*Sets the height of the section */
+    clear: both;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
