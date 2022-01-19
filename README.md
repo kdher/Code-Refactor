@@ -42,7 +42,7 @@ THEN I find a concise, descriptive title
 
 ## Mock-Up
 
-![Image text](./Assets/images/01-html-css-git-homework-demo.png)
+![Image text](./assets/images/01-html-css-git-homework-demo.png)
 
 ## Technologies Used
 
